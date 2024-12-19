@@ -1,14 +1,14 @@
 # neovim 配置
 
 安装
-
+```
 sudo yum install -y gcc gcc-c++ make cmake
 sudo yum install -y libtool autoconf
 git clone https://github.com/neovim/neovim.git
 cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
-
+```
 
 个人 nvim 配置。
 
